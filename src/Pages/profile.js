@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import Button from '../componets/Button'; // Corrected import statement
 
 const ProfileContainer = styled.div`
-  padding: 4rem 2rem;
+  padding: 6.5rem 2rem;
   max-width: 800px;
   margin: 0 auto;
 `;
@@ -14,6 +14,7 @@ const Title = styled(motion.h1)`
   font-size: 2.5rem;
   margin-bottom: 2rem;
   text-align: center;
+  
 `;
 
 const ProfileInfo = styled(motion.div)`
